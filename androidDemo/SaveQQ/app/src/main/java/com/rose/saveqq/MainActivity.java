@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initview();
-        Map<String ,String> userInfo = FileSaveQQ.getUserInfo(this);
+//        Map<String ,String> userInfo = FileSaveQQ.getUserInfo(this);
+        Map<String ,String> userInfo = SPSaveQQ.getUserInfo(this);
         if (userInfo != null) {
             et_account.setText(userInfo.get("account"));
             et_password.setText(userInfo.get("password"));
@@ -50,7 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 }
                 Toast.makeText(this,"登陆成功",Toast.LENGTH_SHORT).show();
-                boolean isSaveSuccess = FileSaveQQ.saveUserInfo(this,account,password);
+//                boolean isSaveSuccess = FileSaveQQ.saveUserInfo(this,account,password);
+                boolean isSaveSuccess = SPSaveQQ.saveUserInfo(this,account,password);
                 if (isSaveSuccess){
                     Toast.makeText(this,"保存成功",Toast.LENGTH_SHORT).show();
                 } else{
