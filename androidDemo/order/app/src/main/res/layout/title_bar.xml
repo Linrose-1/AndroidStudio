@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@android:color/transparent">
+
+<!--    android:layout_alignParentLeft="true"：这个属性将 TextView 控件相对于其父布局的左边缘对齐。-->
+<!--    android:layout_centerVertical="true"：这个属性将 TextView 控件垂直居中放置在其父布局中。-->
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+</RelativeLayout>

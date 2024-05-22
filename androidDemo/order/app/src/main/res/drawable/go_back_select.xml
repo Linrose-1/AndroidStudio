@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当视图被按下时，使用 "@drawable/ic_launcher_background" 这个 drawable 资源 -->
+    <item android:drawable="@drawable/ic_launcher_background" android:state_pressed="true"/>
+
+    <!-- 在其他情况下，使用 "@drawable/ic_launcher_background" 这个 drawable 资源 -->
+    <item android:drawable="@drawable/ic_launcher_background"/>
+</selector>
