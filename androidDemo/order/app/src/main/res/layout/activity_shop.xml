@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical"
-    tools:context=".ShopActivity">
+    tools:context=".activity.ShopActivity">
     <include layout="@layout/title_bar" />
     <ScrollView
         android:layout_width="match_parent"

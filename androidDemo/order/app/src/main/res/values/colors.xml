@@ -6,4 +6,6 @@
     <color name="feature_bg_color">#fff8el</color>
     <color name="feature_text_color">#ff7d00</color>
     <color name="item_bg_color">#d4d4d4</color>
+
+    <color name="blue_color">#2e8de9</color>
 </resources>
